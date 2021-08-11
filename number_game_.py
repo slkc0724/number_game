@@ -9,6 +9,7 @@ while True:
 	q = int(q)
 	if q == r:
 		print('correct!!!')
+		print('u have guessed', time, 'time')
 		break
 	else:
 		print('wrong')
