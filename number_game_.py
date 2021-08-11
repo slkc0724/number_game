@@ -1,7 +1,9 @@
 import random
-x = input('Range (1-?): ')
+x = input('start: ')
+y = input('end: ')
 x = int(x)
-r = random.randint(1, x)
+y = int(y)
+r = random.randint(x, y)
 time = 0
 while True:
 	time = time + 1
