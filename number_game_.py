@@ -6,7 +6,7 @@ y = int(y)
 r = random.randint(x, y)
 time = 0
 while True:
-	time = time + 1
+	time += 1 # time = time + 1
 	q = input('Number: ')
 	q = int(q)
 	if q == r:
